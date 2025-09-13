@@ -119,7 +119,7 @@ class Program
                 end = eventData.end,
                 // numericSeed = seed,
                 featuredInstas = featuredMonkeyTypes,
-                rotations = pages
+                pages = pages
             };
 
             string json = JsonSerializer.Serialize(result, new JsonSerializerOptions 
@@ -127,7 +127,7 @@ class Program
                 WriteIndented = true 
             });
 
-            var outputFileName = $"{eventData.id}_rotations.json";
+            var outputFileName = $"{eventData.id}_pages.json";
             try
             {
                 File.WriteAllText(outputFileName, json);
