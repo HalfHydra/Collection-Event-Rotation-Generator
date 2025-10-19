@@ -205,7 +205,7 @@ public class CollectionEventFeaturedInstasHelper
         int currentPage = GetCurrentPageNumber();
 
         int outerIndex = 0;
-        while (pageSize <= currentPage)
+        while (pageSize < currentPage)
         {
             currentPage -= pageSize;
             outerIndex++;

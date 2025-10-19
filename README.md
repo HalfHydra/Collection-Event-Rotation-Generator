@@ -18,3 +18,6 @@ The pages portion has some additional logic to prevent the same pages from happe
 It can also handle cases where not every tower is enabled (though this has never happened historically without Ninja Kiwi's explicit mention, such as removing Dart Monkey for one event when Mermonkey came out before they could fix it)
 
 Originally based on an older implementation by [Minecool](https://github.com/Minecool), thanks for helping me figure out what changed to make it accurate again.
+
+### Changelog
+- Update 51: game logic changed resulting in repeats occurring one page later, all other pages unchanged from update 49
